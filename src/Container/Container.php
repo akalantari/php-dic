@@ -6,19 +6,16 @@ namespace AKalantari\Container;
  * @package AKalantari
  *
  * @property array $_services
- * @property array $_parameters
  * @property array $_serviceStore
  */
 class Container
 {
     private $_services;
-    private $_parameters;
     private $_serviceStore;
 
-    public function __construct(array $services=[], array $parameters=[])
+    public function __construct(array $services=[])
     {
         $this->_services = $services;
-        $this->_parameters = $parameters;
         $this->_serviceStore = [];
     }
 
