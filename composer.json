@@ -24,5 +24,5 @@
             "url": "https://github.com/username/hello-world"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
