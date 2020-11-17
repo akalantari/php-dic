@@ -24,7 +24,7 @@ class Container
      * @return \stdClass
      * @throws \Exception
      */
-    public function &get(string $name): \stdClass
+    public function &get(string $name)
     {
         // Check the availability for the asked service
         if( $this->has($name) ) {
