@@ -15,8 +15,14 @@
     ],
     "autoload": {
         "psr-4": {
-	    "AKalantari\\Container\\": "src/Container"
-	}
+            "AKalantari\\Container\\": "src/Container"
+        }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/username/hello-world"
+        }
+    ],
     "minimum-stability": "dev"
 }
