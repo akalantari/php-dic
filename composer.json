@@ -1,0 +1,22 @@
+{
+    "name": "akalantari/di-container",
+    "description": "Dependency Injection Container",
+    "type": "library",
+    "require": {
+        "php": ">=7.1"
+    },
+    "version": "0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Kalantari",
+            "email": "alirezak@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+	    "AKalantari\\Container\\": "src/Container"
+	}
+    },
+    "minimum-stability": "dev"
+}
